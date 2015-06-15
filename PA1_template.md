@@ -191,11 +191,11 @@ output: html_document
 ```
 
 ```r
-  print ("No,There has been no change in the value of the mean and median of the two data sets even when the NA's where replaced by the mean of each day")
+  print ("There has been changes in the value of the mean and median of the two data sets when the NA's where replaced by the mean of each day")
 ```
 
 ```
-## [1] "No,There has been no change in the value of the mean and median of the two data sets even when the NA's where replaced by the mean of each day"
+## [1] "There has been changes in the value of the mean and median of the two data sets when the NA's where replaced by the mean of each day"
 ```
 
 ##*Are there differences in activity patterns between weekdays and weekends?*
