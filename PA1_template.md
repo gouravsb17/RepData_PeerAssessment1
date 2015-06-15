@@ -42,19 +42,19 @@ output: html_document
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
 
 ```r
-  mean(data$steps,na.rm=T)
+  mean(step2$step_sum,na.rm=T)
 ```
 
 ```
-## [1] 37.3826
+## [1] 9354.23
 ```
 
 ```r
-  median(data$steps,na.rm=T)
+  median(step2$step_sum,na.rm=T)
 ```
 
 ```
-## [1] 0
+## [1] 10395
 ```
 
 
@@ -143,7 +143,7 @@ output: html_document
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
 ```r
-  print("Mean= "); mean(new_data1$steps,na.rm=T)
+  print("Mean= "); mean(step4$step_sum,na.rm=T)
 ```
 
 ```
@@ -151,11 +151,11 @@ output: html_document
 ```
 
 ```
-## [1] 37.3826
+## [1] 10766.19
 ```
 
 ```r
-  print("Median ="); median(new_data$steps,na.rm=T)
+  print("Median ="); median(step4$step_sum,na.rm=T)
 ```
 
 ```
@@ -163,7 +163,7 @@ output: html_document
 ```
 
 ```
-## [1] 0
+## [1] 10766.19
 ```
 
 ```r
